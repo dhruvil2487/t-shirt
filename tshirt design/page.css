@@ -1,0 +1,588 @@
+body {
+    margin: 30px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links {
+    text-align: start;
+    width: 50%;
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+.nav-btn li a {
+    background-color: greenyellow;
+}
+
+.bg {
+    text-align: center;
+    background-color: greenyellow;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+.bg-1 {
+    font-size: 25px;
+}
+
+.bg-2 {
+    font-size: xx-large;
+}
+
+.bg-3 a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: large;
+    padding: 10px;
+}
+
+.bg-4 {
+    padding-top: 20px;
+}
+
+.bg-4 a {
+    text-decoration: underline;
+    color: black;
+}
+
+.bg-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.bg-icon i {
+    font-size: 40px;
+    margin: 0px;
+    padding-right: 15px;
+    color: greenyellow;
+    padding-top: 20px;
+}
+
+.features {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.features h3 {
+    text-decoration: none;
+    font-size: xx-large;
+    margin: 0px;
+    margin-top: 60px;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.img1-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1-btn a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.txt-head h4 {
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.card-head {
+    margin-top: 50px;
+}
+
+.card1 {
+    width: 44%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.card1 img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.para p {
+    text-align: justify;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.btn-clr a {
+    background-color: greenyellow;
+    display: flex;
+}
+
+.bg-clr {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.c-head {
+    border-bottom: 1px solid black;
+}
+
+.card-head h2 {
+    color: white;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+
+.ftr {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    width: 80%;
+}
+
+.about {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.about h2 {
+    padding-right: 30px;
+    font-size: xx-large;
+}
+
+.ftr p {
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.line {
+    border-left: 2px solid black;
+    width: 100%;
+}
+
+.c-head h4 {
+    margin-bottom: 0px;
+}
+
+.para p {
+    font-size: x-large;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding-top: 105px;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-1 {
+        font-size: 20px;
+    }
+
+    .bg-2 {
+        font-size: x-large;
+    }
+
+    .bg-3 a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 20px;
+        font-size: medium;
+        padding: 5px;
+    }
+
+    .bg-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .bg-icon i {
+        font-size: 35px;
+        margin: 0px;
+        padding-right: 15px;
+        color: greenyellow;
+        padding-top: 20px;
+    }
+
+    .para p {
+        font-size: large;
+    }
+
+    .btn2 {
+        display: flex;
+        justify-content: space-between;
+        font-size: medium;
+        padding-top: 73px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        font-size: medium;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .navbar ul {
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 9px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .nav-links {
+        text-align: start;
+        width: 39%;
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    .navbar li {
+        list-style-type: none;
+        padding-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bg {
+        text-align: center;
+        background-color: greenyellow;
+        margin-top: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+    }
+
+    .bg-1 {
+        font-size: 15px;
+    }
+
+    .bg-2 {
+        font-size: medium;
+    }
+
+    .bg-3 a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 25px;
+        font-size: small;
+        padding: 5px;
+    }
+
+    .bg-4 {
+        padding-top: 20px;
+        font-size: small;
+    }
+
+    .bg-5 {
+        font-size: small;
+    }
+
+    .features h3 {
+        text-decoration: none;
+        font-size: x-large;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .bg-icon i {
+        font-size: 15px;
+        margin: 0px;
+        padding-right: 15px;
+        color: greenyellow;
+        padding-top: 20px;
+    }
+
+    .bg-icon {
+        display: flow-root;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 8px;
+    }
+
+    .card1 {
+        width: 44%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        height: fit-content;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        font-size: x-small;
+        padding-bottom: 20px;
+    }
+
+    .para p {
+        text-align: justify;
+        font-size: x-small;
+    }
+
+    .btn2 {
+        display: flex;
+        justify-content: space-between;
+        font-size: x-small;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .card-head h2 {
+        color: white;
+        padding-top: 10px;
+        font-size: medium;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 10px;
+    }
+
+    .ftr {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .about h2 {
+        padding-right: 30px;
+        font-size: large;
+    }
+
+    .ftr p {
+        text-align: justify;
+        padding-left: 10px;
+        font-size: x-small;
+    }
+
+    .btn a {
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 4px;
+    }
+
+    .btn2 a {
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 4px;
+    }
+
+    .bg-clr {
+        background-color: black;
+        border-radius: 15px;
+    }
+
+    .card1 img {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    body {
+        margin: 15px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .btn2 {
+        display: flex;
+        justify-content: space-between;
+        font-size: x-small;
+        padding-top: 49px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .nav-links {
+        text-align: start;
+        width: 31%;
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    .main {
+        display: block;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
+
+    .card1 {
+        width: 100%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 0px;
+    }
+
+    .c-head h4 {
+        margin-bottom: 0px;
+        padding-top: 15px;
+    }
+}
+/* 
+@media screen and (max-width: 1441px) {
+    .navbar ul {
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .nav-links {
+        text-align: start;
+        width: 40%;
+        font-size: 40px;
+        margin-top: 2px;
+        display: flex;
+        align-items: center;
+    }
+
+    .bg-1 {
+        font-size: 30px;
+    }
+
+    .bg-3 a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 25px;
+        font-size: x-large;
+        padding: 10px;
+    }
+
+    .bg-4 {
+        padding-top: 20px;
+        font-size: large;
+    }
+
+    .bg-5 p {
+        font-size: larger;
+    }
+
+    .features h3 {
+        text-decoration: none;
+        font-size: 40px;
+        margin-top: 70px;
+    }
+
+    .bg-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    .card1 h2 {
+        font-size: 40px;
+    }
+
+    .c-head h4 {
+        font-size: 30px;
+    }
+    .card1 {
+        width: 44%;
+        background-color: white;
+        border-radius: 30px;
+        padding: 10px;
+
+    }
+    .card1 img {
+        width: 100%;
+        border-radius: 30px;
+        height: 350px;
+    }
+    .line {
+        border-left: 2px solid black;
+        width: 100%;
+        font-size: larger;
+    }
+} */

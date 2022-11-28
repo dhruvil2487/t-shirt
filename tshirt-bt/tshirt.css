@@ -1,0 +1,85 @@
+.navbar{
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.collapse a{
+    color: black;
+}
+
+.nav-btn a{
+    background-color: #a8d741 !important;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.background{
+    background-color: #a8d741;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    border-radius: 30px;
+}
+
+.background-btn a{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.background-para{
+    text-decoration: underline;
+    color: black;
+}
+
+.web-icon i{
+    color: #a8d741;
+    padding-right: 15px;
+}
+.web-icon h5{
+    color: #a6a6a6;
+}
+.images{
+    background-color: white;
+}
+
+.price a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px;
+}
+.view-all a{
+    text-decoration: none;
+    background-color: #a8d741;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.iteam-content{
+    border-bottom: 1px solid black;
+}
+
+.quality{
+    background-color: #a8d741;
+    border-radius: 15px;
+}
+
+.shop-btn a{
+    background-color: #a8d741;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.team-btn a{
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px;
+}
